@@ -1,0 +1,31 @@
+<div class="bg-gray-200 shadow-xl mx-auto p-5 flex items-center">
+
+  <div class="w-3/6 ml-5 mr-5">
+    <div>
+    <h1>¡Hola! Soy Kevin Jiménez</h1>
+    <span class="">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente commodi sint sit similique distinctio. Praesentium vel provident vitae officia quas reiciendis temporibus enim, nesciunt inventore quae ipsa natus consequatur magnam.
+    </span>
+  </div>
+  <div class= "flex justify-center space-x-9 bg-gray-200 shadow-lg mx-auto p-3  ">
+    <div *ngFor="let l of links" class="">
+      <a href="{{ l.URL }}" class="text-gray-800">
+        <img class="w-8 space-x-4" [src]="l.imagen" alt="{{ l.imagen }}">
+      </a>
+    </div>
+      <button class="bg-yellow-500 rounded p-1.5 shadow-md mx-auto">Descargar CV</button>
+  </div>
+</div>
+  <div class="w-3/6">
+    <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d03c83e0-f502-4336-b9ac-dcddd6447fd1/deyqwjs-0c6d7131-0b79-47be-a335-b2263cbc45f5.png/v1/fill/w_1280,h_945,q_80,strp/kisaki_tetta_by_semyonpetrov_deyqwjs-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTQ1IiwicGF0aCI6IlwvZlwvZDAzYzgzZTAtZjUwMi00MzM2LWI5YWMtZGNkZGQ2NDQ3ZmQxXC9kZXlxd2pzLTBjNmQ3MTMxLTBiNzktNDdiZS1hMzM1LWIyMjYzY2JjNDVmNS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.hetg0bHlxPSvIKNg7ciC13NoBbUGegUCZ0zcUvQHbFo" alt="Imagen" class="max-w-full">
+  </div>
+</div>
+
+  <div class= "bg-gray-300 shadow-xl mx-auto p-3">
+    <ul class= "flex justify-center space-x-9 bg-gray-200 shadow-lg mx-auto  my-4 p-5  ">
+      <li>Destacado 1</li>
+      <li>Destacado 2</li>
+      <li>Destacado 3</li>
+      <li>Destacado 4</li>
+    </ul>
+  </div>

@@ -1,0 +1,13 @@
+<div class= "bg-gray-200 shadow-xl mx-auto p-5">
+  <div class= "flex justify-center space-x-9 bg-gray-200 shadow-lg mx-auto p-3 ">
+      <div *ngFor="let l of links" class="">
+        <a href="{{ l.URL }}">
+          <img class="w-8 space-x-4" [src]="l.imagen" alt="{{ l.imagen }}">
+        </a>
+      </div>
+    </div>
+</div>
+
+<div class="bg-yellow-600 shadow-xl mx-auto p-5">
+  <h2 class="flex justify-center text-gray-200">Desarollado por Kevin Jiménez</h2>
+</div>

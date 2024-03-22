@@ -1,0 +1,10 @@
+
+  <div class="grid grid-cols-2 gap-4">
+    <div *ngFor="let p of myProyects" class="bg-yellow-200 shadow-xl p-5">
+      <div class="bg-gray-100 p-6">
+        <img class="w-64 mx-auto py-4" [src]="p.imagen" alt="{{ p.name }}">
+        <h1 class="text-gray-800">{{ p.name }}</h1>
+        <a href="{{ p.githubURL }}" class="text-gray-800">{{ p.githubURL }}</a>
+      </div>
+    </div>
+  </div>
