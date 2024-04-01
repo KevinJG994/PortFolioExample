@@ -1,10 +1,24 @@
-<div class="bg-yellow-600 shadow-xl mx-auto p-5">
-  <ul class="flex flex-row space-x-4 justify-center text-gray-300">
-    <h2 class="">KevinJ.</h2>
-    <a href="#" class="hover:text-gray-900"><li>Sobre mi</li></a>
-    <a href="#"><li>Proyectos</li></a>
-    <a href="#"><li>Habilidades</li></a>
-    <a href="#"><li>Contacto</li></a>
-    <button class="bg-slate-400 rounded p-1.5 shadow-md">Modo nocturno</button>
-  </ul>
+<div class="bg-yellow-500 shadow-xl mx-auto p-1.5">
+  <div class="flex flex-col md:flex-row justify-between items-center">
+
+    <h1 class="text-start ml-5 mb-4 md:mb-0 text-gray-50 font-bold text-de">KevinJ.</h1>
+
+    <ul class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-16 text-gray-50 font-bold ">
+      <li><a href="#about" class="hover:text-gray-900">Sobre mi</a></li>
+      <li><a href="#projects" class="hover:text-gray-900">Proyectos</a></li>
+      <li><a href="#skills" class="hover:text-gray-900">Habilidades</a></li>
+      <li><a href="#footer" class="hover:text-gray-900">Contacto</a></li>
+    </ul>
+
+      <button id="dark-mode-toggle" class="bg-slate-200 mr-5 rounded p-1.5 shadow-md flex items-center justify-center" aria-label="Modo nocturno">
+        <!-- Ícono de luna para el modo oscuro -->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+        </svg>
+        <!-- Ícono de sol para el modo claro -->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 hidden">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+        </svg>
+      </button>
+  </div>
 </div>
